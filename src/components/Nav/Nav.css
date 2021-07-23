@@ -1,0 +1,21 @@
+.List-items-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0%;
+   
+  
+}
+.btn-1{
+    margin-left: 5%;
+    border-radius: 8%;
+    border: 2px solid #945ad1;
+    background-color: transparent;
+}
+.btn-2{
+    margin-right: 4%;
+    border-radius: 8%;
+    border: 2px solid #945ad1;
+    background-color: transparent;
+
+}

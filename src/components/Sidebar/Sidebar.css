@@ -1,0 +1,29 @@
+
+.kuchbhi{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: center;
+   
+    height: 100%;
+    background-color: white;
+     
+}
+
+/* .Logo-1{
+   width: 100%;
+} */
+
+/* .Items{
+    width: 100%;
+} */
+/* .list{
+    width: 100%;
+} */
+
+.List-items{
+    width: 100%;
+    cursor: pointer;
+    list-style-type: none;
+}

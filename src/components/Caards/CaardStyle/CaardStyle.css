@@ -1,0 +1,44 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+
+  background-color: whitesmoke;
+  color: #272727;
+
+  border-radius: 10px;
+
+  border-color: tomato;
+  border-style: solid;
+
+  width: 363px;
+  height: 289px;
+  /* margin: 5%; */
+}
+.Upper-part {
+  width: 364px;
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Lower-part {
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+.Bottom-most {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 33px;
+}
+.Solve-quetions {
+  height: 39px;
+}
+.Total-quetions {
+  height: 39px;
+}
