@@ -1,29 +1,30 @@
 .Card {
   display: flex;
   flex-direction: column;
-
-  background-color: whitesmoke;
   color: #272727;
-
   border-radius: 10px;
-
-  border-color: tomato;
+  border-color: transparent;
   border-style: solid;
-
   width: 363px;
   height: 289px;
-  /* margin: 5%; */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.25);
+  border: 0;
+  margin-bottom: 42px;
 }
 .Upper-part {
-  width: 364px;
+  width: 363px;
   height: 67px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: #945ad1;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 .Lower-part {
   height: 222px;
+  border-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -41,4 +42,17 @@
 }
 .Total-quetions {
   height: 39px;
+}
+.Author-name {
+  color: white;
+  width: 162px;
+  height: 19px;
+}
+.Plus-btn {
+  width: 32px;
+  height: 32px;
+  color: white;
+  border-radius: 20px;
+  border-color: white;
+  background-color: #945ad1;
 }

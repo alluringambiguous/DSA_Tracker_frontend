@@ -22,6 +22,9 @@ export default function Whole() {
           <Caards />
           <Caards />
           <Caards />
+          <Caards />
+          <Caards />
+          <Caards />
         </div>
       </div>
     </div>
