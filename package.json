@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dependencies": {
     "@material-ui/core": "^4.12.2",
     "@material-ui/icons": "^4.11.2",
@@ -9,6 +10,8 @@
     "prop-types": "^15.7.2",
     "react-icons": "^4.2.0"
 =======
+=======
+>>>>>>> 8e18e0263160833c492f8606b361f2d8dfca21e5
   "name": "dsa-v1",
   "version": "0.1.0",
   "private": true,
@@ -44,6 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+>>>>>>> 8e18e0263160833c492f8606b361f2d8dfca21e5
+=======
 >>>>>>> 8e18e0263160833c492f8606b361f2d8dfca21e5
   }
 }
