@@ -1,0 +1,31 @@
+.mainBox1 {
+  display: flex;
+  justify-content: space-around;
+}
+.main1 {
+  height: 200px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #945ad1;
+  height: 30%;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 70%;
+}
+.stars1 {
+  display: flex;
+  align-items: center;
+}

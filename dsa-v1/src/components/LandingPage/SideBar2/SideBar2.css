@@ -1,0 +1,50 @@
+.kuchbhi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 15px;
+  height: 100%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.Logo-1 {
+  display: flex;
+  font-size: 16px;
+  color: #945ad1;
+  font-family: Montserrat;
+  text-align-last: left;
+  align-items: center;
+  height: 15%;
+}
+
+.List-items {
+  width: 100%;
+  cursor: pointer;
+  list-style-type: none;
+  padding: 0px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.Menu {
+  font-family: nunito;
+  color: #945ad1;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.Logout {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  height: 15%;
+}
+.ca {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}

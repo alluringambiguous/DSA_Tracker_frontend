@@ -2,15 +2,16 @@ import React from "react";
 import CaardStyle from "./CaardStyle/CaardStyle";
 import "./Caards.css";
 
-export default function Caards() {
-  return (
-    <>
+export default function Caards(props) {
+  const items = props.listDetails.map((c) => {
+    return (
       <CaardStyle
-        name="ABHISHEK"
-        total="37"
-        done="31"
-        date="27"
+        name={c.author}
+        total={c.totalQuestions}
+        done={c.solvedQuestions}
+        date={c.date}
       />
-    </>
-  );
+    );
+  });
+  return <>{items}</>;
 }
